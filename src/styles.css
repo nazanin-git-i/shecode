@@ -70,7 +70,7 @@ main {
   display: flex;
 }
 
-.weather-app-icon {
+.weather-app-icon  {
   width: 88px;
   height: 88px;
 }
@@ -100,22 +100,26 @@ main {
   margin-bottom: 10px;
 }
 .weather-forecast-icon {
-  font-size: 38px;
-  text-align: center;
+width: 88px;
+  height: 88px;
+  display: block;
+margin: 0 auto;
 }
 
 .weather-forecast-temperatures {
   text-align: center;
   color: #f65282;
   margin-top: 10px;
-  display: flex;
+    display: flex;
   justify-content: center;
 
 }
 
 .weather-forecast-temperature {
   padding: 0%;
-
+margin-right: 10px;
+margin-left: 10px;
+text-align: center;
 }
 
 footer {
